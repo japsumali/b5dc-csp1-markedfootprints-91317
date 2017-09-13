@@ -1,0 +1,65 @@
+* {
+	/* reset default styles */
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;  /* remove overflows toa ll elements */
+}
+
+.logo {
+	float: left;
+	margin-right: 5px;
+}
+
+#search-field {
+	background: none;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    border-radius: 0;
+    box-shadow: none;
+    color: inherit;
+}
+
+.glyphicon-search {
+	color: grey;
+}
+
+/*content*/
+
+.contentTitle {
+    overflow: hidden;
+    text-align: center;
+}
+
+.contentTitle:before,
+.contentTitle:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 10%;
+}
+
+.contentTitle:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+.contentTitle:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+/*footer*/
+
+.footerCopyright,
+.footerSocialMedia {
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.fa {
+	padding: 10px;
+	margin: 10px;
+}

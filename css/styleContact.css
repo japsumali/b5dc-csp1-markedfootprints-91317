@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-default {
+    margin-bottom: 0;
+
+}
+
+.logo {
+	float: left;
+	margin-right: 5px;
+}
+
+#search-field {
+	background: none;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    border-radius: 0;
+    box-shadow: none;
+    color: inherit;
+}
+
+.btnTop {
+    margin: 0;
+    padding: 0;
+}
+
+/*content*/
+
+.image {
+    position: relative;
+    color: #D2D6D9;
+    font-weight: bolder;
+}
+
+.caption {
+    position: absolute;
+    top: 80%;
+    left: 0;
+    width: 100%;
+}
+
+.services {
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+img.contacts2 {
+    margin-top: 20px;
+}
+
+form {
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #ddd;
+    color: #777;
+    font-family: 'Lato', sans-serif; 
+}
+
+span, .services, label {
+    color: #555;
+}
+
+/*footer*/
+
+footer {
+    color: #606060;
+    font-family: 'Crimson Text', Georgia, serif;
+    letter-spacing: .5px;
+}
+
+.logoFooter {
+    margin-top: 20px;
+}
+
+.footerCopyright,
+.footerSocialMedia {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+
+.fa {
+    padding: 10px;
+    margin: 10px;
+}
+
+.footerTop {
+    background-color: #CBD1D4;
+}
+
+.footerBottom {
+    background-color: #CBD1D4;
+}
+
+.footerSocialMedia {
+    background-color: #CBD1D4;
+}
+
+i {
+    color: #777;
+}
+
+.overlaytext {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.overlaycontainer:hover .overlay {
+  opacity: .85;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #555;
+}
+
+.imageoverlay {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlaycontainer {
+  position: relative;
+  width: 100%;
+}
+
+.hi {
+  font-size: 3vw;
+}
+
+@media screen and (max-width: 600px) {
+  .hi {
+    font-size: 15px;
+  }
+}
