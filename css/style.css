@@ -8,6 +8,16 @@
     margin-bottom: 0;
 }
 
+/*.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+*/
+  /*.navbar li { 
+    color: #000; 
+  } */
+
 .logo {
 	float: left;
 	margin-right: 5px;
